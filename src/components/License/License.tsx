@@ -29,7 +29,7 @@ function License(): ReactElement {
   return (
     <>
       <h1 className="mt-3">Open Source Assurance</h1>
-      <h4 className="fw-bold">Sock Savior v{packageInfo.version}</h4>
+      <h4 className="fw-bold">Joy Exchange{packageInfo.version}</h4>
       <div>MIT - &copy; Copyright 2023-present Michaela Andermann</div>
       <hr className="hr" />
       <br />

@@ -35,7 +35,7 @@ function DonationView(): ReactElement {
     } else if (subview === DonationSubPages.FromHome) {
       header = t('homeDonation', { ns: 'nav' });
     }
-    document.title = `Sock Savior - ${header}`;
+    document.title = `Joy Exchange  - ${header}`;
   }, [subview, i18n.language]);
 
   return (

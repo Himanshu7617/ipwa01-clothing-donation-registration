@@ -19,7 +19,7 @@ function HomeView(): ReactElement {
    * Runs everytime the active language changes.
    */
   useEffect(() => {
-    document.title = `Sock Savior - ${t('homePage', { ns: 'nav' })}`;
+    document.title = `Joy Exchange - ${t('homePage', { ns: 'nav' })}`;
   }, [i18n.language]);
 
   return (
@@ -52,7 +52,7 @@ function HomeView(): ReactElement {
           <p>
             {t('howText')}
             <br />
-            Sock Savior e. V.
+            Joy Exchange
             <br />
             {location.street} {location.houseNumber}
             <br />

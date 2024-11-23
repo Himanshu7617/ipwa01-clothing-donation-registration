@@ -15,7 +15,7 @@ function LegalNotice(): ReactElement {
    * Runs everytime the active language changes.
    */
   useEffect(() => {
-    document.title = `Sock Savior - ${t('legalNotice', { ns: 'nav' })}`;
+    document.title = `Joy Exchange - ${t('legalNotice', { ns: 'nav' })}`;
   }, [i18n.language]);
 
   return (
@@ -23,7 +23,7 @@ function LegalNotice(): ReactElement {
       <h1 className="mt-3">{t('header')}</h1>
       <p>{t('informationHeader')} § 5 TMG</p>
       <p>
-        Sock Savior e. V. <br /> {location.street} {location.houseNumber}
+        Joy Exchange <br /> {location.street} {location.houseNumber}
         <br /> {location.postcode} {location.city} <br />{' '}
       </p>
       <p>

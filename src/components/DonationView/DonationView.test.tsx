@@ -36,7 +36,7 @@ describe('DonationView', () => {
     });
     render(<DonationView />, { wrapper: MemoryRouter });
 
-    expect(document.title).toBe('Sock Savior - overviewPage');
+    expect(document.title).toBe('Joy Exchange - overviewPage');
     expect(screen.getByTestId('overview-row')).toBeInTheDocument();
     expect(screen.queryByTestId('donation-row')).not.toBeInTheDocument();
   });
@@ -47,7 +47,7 @@ describe('DonationView', () => {
     });
     render(<DonationView />, { wrapper: MemoryRouter });
 
-    expect(document.title).toBe('Sock Savior - homeDonation');
+    expect(document.title).toBe('Joy Exchange - homeDonation');
     expect(screen.getByTestId('donation-row')).toBeInTheDocument();
     expect(screen.queryByTestId('overview-row')).not.toBeInTheDocument();
   });
@@ -58,7 +58,7 @@ describe('DonationView', () => {
     });
     render(<DonationView />, { wrapper: MemoryRouter });
 
-    expect(document.title).toBe('Sock Savior - localStoreDonation');
+    expect(document.title).toBe('Joy exchange - localStoreDonation');
     expect(screen.getByTestId('donation-row')).toBeInTheDocument();
     expect(screen.queryByTestId('overview-row')).not.toBeInTheDocument();
   });
@@ -69,7 +69,7 @@ describe('DonationView', () => {
     });
     render(<DonationView />, { wrapper: MemoryRouter });
 
-    expect(document.title).toBe('Sock Savior -');
+    expect(document.title).toBe('Joy Exchange -');
     expect(screen.queryByTestId('overview-row')).not.toBeInTheDocument();
     expect(screen.queryByTestId('donation-row')).not.toBeInTheDocument();
   });

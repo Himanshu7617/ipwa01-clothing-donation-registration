@@ -32,9 +32,9 @@ function Navigation(): ReactElement {
             width="40"
             height="40"
             className="d-inline-block align-top"
-            alt="Sock Savior logo"
+            alt="Joy Exchange logo"
           />{' '}
-          <span className="align-middle">Sock Savior</span>
+          <span className="align-middle">Joy Exchange</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navigation-links" />
         <Navbar.Collapse id="navigation-links">
